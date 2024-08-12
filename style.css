@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.navbar{
+    background-color: #09002e; 
+}
+.container-fluid{
+    display: flex;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-collapse .navbar-nav li .nav-link{
+    color: #ffffff;
+}
+.navbar-collapse .navbar-nav li .nav-link:hover{
+    color: #ff0000;
+}
+.dropdown-item{
+    background-color: #ff0000;
+    color: #fff;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.black{
+    height: 900px;
+}
+.rotate-img{
+    width: 40%;
+    
+}
+@media screen and (max-width:992px){
+    .black{
+        height: 700px;
+    }
+    .rotate-img{
+        width: 30%;
+    }    
+}
+.data{
+    cursor: pointer;
+}
+.text li{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.text a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+}
+.texts li{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.texts a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+}
+    
